@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer HTMl</title>
+</head>
+<body bgcolor="beige" style="background-image:url('imagenes/mosaico.jpg'); background-blend-mode:multiply;">
+  <nav id="top" style="background-color:skyblue; text-align:center; font-size: 20px;">
+    <a href="#seccion1" style="color:white; text-decoration:none; margin: 10px;">Sección 1</a>
+    <a href="#seccion2" style="color:white; text-decoration:none; margin: 10px;">Sección 2</a>
+    <a href="#seccion3" style="color:white; text-decoration:none; margin: 10px;">Sección 3</a>
+    <form action="perfil.html" style="display:inline; margin:0;">
+      <button type="submit" style="color:white; font:inherit; background:transparent; border:0; padding:0; margin:10px; cursor:pointer;">Mi perfil</button>
+    </form>
+    <form action="Contacto.html" style="display:inline; margin:0;">
+     <button style="color:white; font:inherit; background:transparent; border:0; padding:0; margin:10px; cursor:pointer;">Contacto</button>
+    </form>
+    <form action="Cuadro.html" style="display:inline; margin:0;">
+      <button style="color:white; font:inherit; background:transparent; border:0; padding: 0; margin:10px; cursor:pointer;">Cuadro</button>
+    </form>
+  </nav>
+  <header style="text-align:center;">
+    <hr color="red" size="5">
+    <h1 style="color:skyblue;"><b><u>Texto Destacado</u></b></h1>
+    <hr color="red" size="5">
+  </header>
+    <h1 style="color:skyblue; text-align: center;">Encabezado Nivel 1</h1>
+    <h2 style="color:skyblue">Encabezado Nivel 2</h2>
+    <h3 style="color:skyblue">Encabezado Nivel 3</h3>
+    <h4 style="color:skyblue">Encabezado Nivel 4</h4>
+    <h5 style="color:skyblue">Encabezado Nivel 5</h5>
+    <h6 style="color:skyblue">Encabezado Nivel 6</h6>
+    <br>
+    <hr color="red" fontsize="2">
+    <h1 style="color:skyblue; font-size: 34px; text-align: center;">Titulo centrado con una linea horizontal </h1>
+    <p style="color:white;font-size: 20px;"><b>Este parrafo esta resaltado con negrilla</b></p>
+    <p style="color:white;font-size: 20px;"><i>Este parrafo esta resaltado con cursiva</i></p>
+    <p style="color:white;font-size: 20px;"><u>Este parrafo esta resaltado con subrayado</u></p>
+    <br>
+    <hr color="red" fontsize="2">
+    <h2 style="color:skyblue">Muestra de Imagenes y Dimensiones</h2>
+    <img src="imagenes/Keduyyy.jpg" width="200" height="150">
+    <p style="color:white;font-size: 20px;"><i><b>imagen con 200 de ancho y 150 de alto,  Se recomienda usar rutas relativas porque describen dónde está la imagen
+  <em>respecto al archivo HTML</em>, no respecto a un computador concreto.
+  Al publicar el sitio, el servidor mantiene la misma estructura de carpetas
+  y la imagen se sigue encontrando sin cambiar nada en el código.</b></i></p>
+    <img src="file:///C:/Users/js684/OneDrive/Desktop/Proyectos/Cantando.jpg" width="150" height="200">
+    <p style="color:white;font-size: 20px;"><b>imagen con 150 de ancho y 200 de alto en el cual solo se va a ver en el dispositivo ya que la ruta es absoluta.
+         Con una ruta relativa puedes organizar tus archivos en carpetas
+  (<code>imagenes/</code>, <code>css/</code>, etc.) y mover todo el proyecto
+  completo a otro lugar, ya sea otro computador o un hosting, sin romper
+  ningún enlace, porque las posiciones entre archivos no cambian
+    </b></p>
+    <br>
+    <hr color="red" fontsize="2">
+    <h1 style="color:skyblue">Centro de Enlaces y Recursos</h1>
+     <hr color="red" fontsize="2">
+    <a style="color: skyblue; font-size: 40px;" target="_blank" href="https://www.w3schools.com/html/default.asp"><i><b>Link de w3schools </b></i></a>
+    <br>
+    <hr color="red" fontsize="2">
+    <a style="color: skyblue; font-size: 40px;" target="_self"  href="https://www.w3schools.com/html/default.asp"><i><b>Link de w3schools pero con el _self</b></i></a>
+    <br>
+    <hr color="red" fontsize="2">
+    <a style="color:skyblue; font-size: 40px;" target="_self" href="Contacto.html"><i><b>Link de contacto</b></i></a>
+    <hr color="red" fontsize="2">
+
+    <section>
+      <h1 id="seccion1" style="color:skyblue">Sección 1: Historia</h1>
+      <p style="color:white;font-size: 20px;">La historia nos ayuda a comprender cómo las personas y las comunidades han cambiado con el paso del tiempo. Al conocer los acontecimientos del pasado, podemos entender mejor las costumbres, las ideas y las decisiones que dieron forma al presente.</p>
+      <p style="color:white;font-size: 20px;">Estudiar distintas épocas también permite reconocer los logros y los desafíos que compartimos. Los relatos, los documentos y los objetos antiguos conservan pistas que nos ayudan a aprender de quienes vivieron antes que nosotros.</p>
+      <a href="#top"><button type="button" style="background-color:skyblue; color:white; font-size:20px; border:0; padding:10px 16px; cursor:pointer;">Volver al inicio</button></a>
+    </section>
+
+    <section>
+      <h1 id="seccion2" style="color:skyblue">Sección 2: Naturaleza</h1>
+      <p style="color:white;font-size: 20px;">La naturaleza reúne una gran diversidad de paisajes, plantas y animales. Cada ecosistema tiene características propias y está formado por seres vivos que dependen unos de otros para encontrar alimento, refugio y condiciones adecuadas para vivir.</p>
+      <p style="color:white;font-size: 20px;">Cuidar el entorno es una responsabilidad compartida. Acciones cotidianas como reducir los residuos, ahorrar agua y respetar los espacios naturales contribuyen a conservar los recursos y la biodiversidad para las próximas generaciones.</p>
+      <a href="#top"><button type="button" style="background-color:skyblue; color:white; font-size:20px; border:0; padding:10px 16px; cursor:pointer;">Volver al inicio</button></a>
+    </section>
+
+    <section>
+      <h1 id="seccion3" style="color:skyblue">Sección 3: Tecnología</h1>
+      <p style="color:white;font-size: 20px;">La tecnología comprende herramientas y conocimientos que las personas utilizan para resolver problemas y realizar tareas. Desde inventos sencillos hasta dispositivos digitales, cada avance puede cambiar la manera en que aprendemos, trabajamos y nos comunicamos.</p>
+      <p style="color:white;font-size: 20px;">Usar la tecnología de forma responsable implica pensar en sus beneficios y en sus efectos. Proteger la información personal, verificar lo que leemos y mantener un equilibrio entre las actividades digitales y otras experiencias son hábitos importantes.</p>
+      <a href="#top"><button type="button" style="background-color:skyblue; color:white; font-size:20px; border:0; padding:10px 16px; cursor:pointer;">Volver al inicio</button></a>
+    </section>
+</body>
+</html>
